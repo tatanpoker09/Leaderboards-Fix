@@ -1,0 +1,19 @@
+name: CustomLeaderboard
+main: com.mcaletheia.customLeaderboard.CustomLeaderboard
+version: 0.1
+commands:
+   heartbeat:
+      description: Leaderboard heartbeat.
+      usage: /<command>
+      permission: CustomLeaderboard.leaderboard.heartbeat
+      permission-message: You don't have access to this command
+   leaderboard:
+      description: Leaderboard information.
+      usage: /<command>
+      permission: CustomLeaderboard.leaderboard
+      permission-message: You don't have access to this command
+   lb:
+      description: Leaderboard information.
+      usage: /<command>
+      permission: CustomLeaderboard.lb
+      permission-message: You don't have access to this command
